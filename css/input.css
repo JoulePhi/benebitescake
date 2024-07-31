@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Boohong";
+  src: url("../../public/fonts/Boohong.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Leelawadee";
+  src: url("../../public/fonts/leelawadee-ui.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Leelawadee";
+  src: url("../../public/fonts/leelawdb.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.selected-menu {
+  @apply text-white font-boohong  text-2xl 2xl:text-4xl;
+}
+
+.menu {
+  @apply text-pink font-boohong text-lg 2xl:text-2xl;
+}
