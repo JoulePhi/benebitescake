@@ -707,11 +707,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-scale-x-100 {
-  --tw-scale-x: -1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -821,12 +816,12 @@ video {
   background-image: url('../images/contact.jpg');
 }
 
-.bg-newArrival {
-  background-image: url('../images/new_arrivall.jpg');
-}
-
 .bg-location {
   background-image: url('../images/lokasi.jpg');
+}
+
+.bg-newArrival {
+  background-image: url('../images/new_arrivall.jpg');
 }
 
 .bg-cover {
@@ -1098,10 +1093,6 @@ video {
     height: 36rem;
   }
 
-  .\32xl\:h-\[60rem\] {
-    height: 60rem;
-  }
-
   .\32xl\:h-\[55rem\] {
     height: 55rem;
   }
@@ -1114,32 +1105,16 @@ video {
     width: 6rem;
   }
 
-  .\32xl\:w-\[60rem\] {
-    width: 60rem;
+  .\32xl\:w-\[45rem\] {
+    width: 45rem;
   }
 
   .\32xl\:w-\[55rem\] {
     width: 55rem;
   }
 
-  .\32xl\:w-\[30rem\] {
-    width: 30rem;
-  }
-
-  .\32xl\:w-\[45rem\] {
-    width: 45rem;
-  }
-
   .\32xl\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .\32xl\:gap-24 {
-    gap: 6rem;
-  }
-
-  .\32xl\:gap-32 {
-    gap: 8rem;
   }
 
   .\32xl\:gap-40 {
